@@ -43,6 +43,7 @@ keymap("n", "<S-h>", ":bprevious<CR>", opts)
 -- Press jk fast to exit insert mode 
 --keymap("i", "jk", "<ESC>", opts)
 --keymap("i", "kj", "<ESC>", opts)
+keymap('i', '<C-H>', '<C-W>', {noremap = true}) -- for Ctrl+Backspace
 
 -- Visual --
 -- Stay in indent mode
